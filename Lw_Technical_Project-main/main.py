@@ -236,8 +236,7 @@ def mainmenu():
       \t\t\t 8.cropping face
       \t\t\t 9.measure distance from face
       \t\t\t 10.pose detection
-      \t\t\t 11.Web based CLI
-      \t\t\t 12.Exit program\n''')
+      \t\t\t 11.Exit program\n''')
       os.system("tput setaf 7")
       ch=input("\t\t\tEnter your choice: ")
       if int(ch) == 1:
@@ -264,8 +263,6 @@ def mainmenu():
       elif int(ch) == 10:
           pose_detect.detect()
       elif int(ch) == 11:
-          shellinabox()
-      elif int(ch) == 12:
           exit()
       else:
           print("Try again")
