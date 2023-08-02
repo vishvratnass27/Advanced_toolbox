@@ -14,8 +14,7 @@ Following is a glimpse of program:
 - 8.cropping face
 - 9.measure distance from face
 - 10.pose detection
-- 11.Web based CLI
-- 12.Exit program
+- 11.Exit program
 Features
 Hadoop Configuration: The program allows you to configure Hadoop Namenode and Datanode services by providing necessary inputs such as IP, folder name, and port number.
 
